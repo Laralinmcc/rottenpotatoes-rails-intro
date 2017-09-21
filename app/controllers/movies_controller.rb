@@ -29,7 +29,7 @@ class MoviesController < ApplicationController
     elsif session[:sort]
       return session[:sort]
     else
-      return "title"
+      return "name"
     end 
   end
 
